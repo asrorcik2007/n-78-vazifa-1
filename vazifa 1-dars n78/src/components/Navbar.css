@@ -1,0 +1,28 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a5adf;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #5a5adf;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

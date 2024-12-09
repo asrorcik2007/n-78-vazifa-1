@@ -1,0 +1,31 @@
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+
+.hero-text h1 {
+    color: #5a5adf;
+}
+
+.hero-buttons .call-btn,
+.hero-buttons .details-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.call-btn {
+    background-color: #5a5adf;
+    color: white;
+}
+
+.details-btn {
+    background-color: white;
+    color: #5a5adf;
+    border: 1px solid #5a5adf;
+}
